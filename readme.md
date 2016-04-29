@@ -17,7 +17,7 @@ options:
 - `maxLag`: {Number} set maximum lag to an aggressive value.
 - `interval`: {Number} set check interval to a faster value.
 - `status`: {Number} http responde code, default `503`.
-- `message`: {String} http responde message, default `Server is too busy. Please, try again later.`.
+- `message`: {String} http responde message, default `Server is too busy, try again later.`.
 
 ### License
 

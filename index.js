@@ -12,10 +12,9 @@ module.exports = function (options) {
   }
   
   return function* koaToobusy(next) {
-    console.log(toobusy())
     if (toobusy()) {
       this.status = options.status || options.statusCode || 503;
-      this.body = options.message || 'Server is too busy. Please, try again later.';
+      this.body = options.message || 'Server is too busy, try again later.';
       return;
     }
     yield* next;
