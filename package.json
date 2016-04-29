@@ -1,0 +1,23 @@
+{
+  "name": "koa-toobusy",
+  "version": "1.0.0",
+  "description": "Toobusy middleware for koa.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "nswbmw",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/koa-toobusy"
+  },
+  "keywords": [
+    "koa",
+    "toobusy"
+  ],
+  "devDependencies": {
+  },
+  "dependencies": {
+    "toobusy-js": "^0.4.3"
+  }
+}
