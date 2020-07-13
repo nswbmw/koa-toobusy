@@ -11,7 +11,7 @@ declare namespace KoaTooBusy {
     type KoaTooBusyOptions = KoaTooBusyOptionsObject
 
     interface KoaTooBusy {
-        (options: KoaTooBusyOptions): Middleware;
+        (options?: KoaTooBusyOptions): Middleware;
     }
 }
 
