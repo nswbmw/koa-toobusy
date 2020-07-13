@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Toobusy middleware for koa.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
   },
   "author": "nswbmw",
