@@ -1,6 +1,6 @@
 {
   "name": "koa-toobusy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Toobusy middleware for koa.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -19,6 +19,6 @@
   "devDependencies": {
   },
   "dependencies": {
-    "toobusy-js": "^0.4.3"
+    "toobusy-js": "^0.5.1"
   }
 }
